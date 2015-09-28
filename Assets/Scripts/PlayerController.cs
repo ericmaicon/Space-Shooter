@@ -9,7 +9,7 @@ public class Boundary
 
 public class PlayerController : MonoBehaviour {
 
-	public Rigidbody rigidBody;
+	private Rigidbody rigidBody;
 	public float speed;
 	public float tilt;
 	public Boundary boundary;
